@@ -5,7 +5,8 @@ const index = () => {
   return (
     <Container>
       <FeatureImage />
-      <Content>        <ContentCard
+      <Content>
+        <ContentCard
           date="Idag"
           title="Vilken härlig dag"
           excerpt="Vilken härlig dag det har varit idag."
