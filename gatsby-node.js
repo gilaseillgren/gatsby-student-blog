@@ -28,7 +28,7 @@ exports.createPages = async function ({ actions, graphql }) {
         },
       })
     })
-    //Create single blog posts
+    // Create single blog posts
     data.allMdx.edges.forEach(edge => {
       const slug = edge.node.frontmatter.slug
       const id = edge.node.id
