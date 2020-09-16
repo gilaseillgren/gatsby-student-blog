@@ -18,5 +18,4 @@ export const ButtonWrapper = styled(props => <Link {...props} />)`
         filter: brightness(110%);
                 
     }
-    
 `
